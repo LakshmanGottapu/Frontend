@@ -1,1 +1,3 @@
 # Frontend
+This is my first learning of the frontend technologies
+In this project I will be learning and committing front end technologies from scratch in order like html css javasript bootstrap etc...
