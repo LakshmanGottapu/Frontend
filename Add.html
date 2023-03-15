@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Addition of two numbers</title>
+        <script type="text/javascript">
+            function f(){
+                var a = document.getElementById("first").value;
+                var b = document.getElementById("second").value;
+                document.getElementById("result").value=(parseInt(a)+parseInt(b));
+            }
+        </script>
+        <style type="text/css">
+            h1{
+                color:yellowgreen;
+                border: 5px solid green;
+                border-radius: 10px;
+                font-size: 30px;
+            }
+            input{
+                margin: 10px;
+                color:greenyellow;
+                background-color:bisque;
+                border: 1px dashed red; 
+            }
+            p{
+                margin: 10px;
+                color:brown;
+                font-size: 25px;
+                font-style: oblique;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 >Do your Math here</h1>
+        <p >you can add two numbers here by giving them as inputs in the below fields.</p>
+        <form name="form1">
+            <input type="text" name="first" id="first">
+            <input type="text" name="second" id="second">
+        </form>
+        <input type="button" value="click me" onclick="f()">
+        <br/><br/>
+        <input type="text" name="result" id="result">
+    </body>
+</html>
